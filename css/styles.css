@@ -1,0 +1,140 @@
+testimonial-imagebody{
+  font-family: 'Montserrat';
+  }
+#title{
+  background-color:#3AB0FF;
+  color: white;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#cta {
+  background-color: #3AB0FF;
+  padding: 7% 15%;
+  text-align: center;
+}
+#testimonials{
+  background-color: #F87474;
+  color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+  background-color: #F87474;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#footer {
+  text-align: center;
+  padding: 80px 0 80px;
+  background-color: white;
+}
+.review{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.love {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.navbar-brand{
+  font-family: 'Ubuntu' ;
+  font-size:40px;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+h1{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.5;
+  }
+h2{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  margin: auto;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.container{
+  text-align: center;
+}
+#pricing{
+padding: 7% 10%;
+text-align: center;
+}
+.price-box{
+  padding: 3% 2%;
+}
+.image{
+  position: absolute;
+  width:60%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+.image-container{
+  position: relative;
+}
+.icons {
+  color: #FFB562;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+.line{
+  color:#8f8f8f;
+  width:70%;
+  margin: auto;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.change {
+  padding-bottom: 20px;
+}
+
+.end {
+  color: white;
+}
+.ficons {
+  margin: 20px 20px;
+}
+@media screen and (max-width: 992px){
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    transform:rotate(0);
+  }
+}

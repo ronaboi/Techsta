@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Techsta!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/8/8b/Light-bulb.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f3c39aa759.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">Techsta!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>An answer for every engineer's needs.</h1>
+          <a href="D:\Web Dev\Quora for Engineers\firebase-auth-vanilla-main\index.html"><button type="button" class="btn btn-primary btn-lg download-button"><i class="fa-solid fa-desktop"></i> Login</button></a>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button "><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6 image-container">
+          <img class="image" src="images/1655971509536.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="change col-12 col-lg-4">
+          <i class="fa-solid fa-circle-check icons"></i>
+          <h3>Help from experts</h3>
+          <p class="line">Our verified professionals can help you with your doubts.</p>
+        </div>
+        <div class="change col-12 col-lg-4">
+          <i class="fa-solid fa-bullseye icons"></i>
+          <h3>Placement Assistance</h3>
+          <p class="line">We offer career counselling and talks with industry professionals.</p>
+        </div>
+        <div class="change col-12 col-lg-4">
+          <i class="fa-solid fa-heart  icons"></i>
+          <h3>Make friends!</h3>
+          <p class="line">Find like minded individuals and work on projects together!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <h2 class="ro">Techsta is my favourite website to learn and grow my technical skills. I'm confident in my coding skills and I have made many friends here by using the 'Team Project' feature! </h2>
+            <img class="testimonial-image" src="images/Dhatri.jpg" alt="profile-1">
+            <em>Dhatri M, India</em>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <h2 class="testimonial-text">Techsta's placement assistance feature helped me get a job in PhonePe. The resources on this app made me the engineer I always wanted to be. Thankyou Techsta!</h2>
+            <img class="testimonial-image" src="images/Umesh.jpg" alt="profile-2">
+            <em>Umesh Giri, Bhutan</em>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="review" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="review" src="images/tnw.png" alt="tnw-logo">
+    <img class="review" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="review" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Engineer's Needs</h2>
+    <p>Simple and affordable price plans for the best investment in your career.</p>
+
+    <div class="container-1">
+      <div class="row">
+        <!--lg-4 for large dis, sm-6 for tabs, col-12 for small dis-->
+        <div class="price-box col-lg-4 col-sm-6 col-12">
+          <!--card h-100 will make all cards of same height also each card has header body and footer-->
+          <div class="card h-100 ">
+            <div class="card-header">
+              <h3>Techsta!</h3>
+            </div>
+            <div class="card-body">
+              <h2>Free</h2>
+              <p class="card-text">Access to forums</p>
+              <p class="card-text">2 Live expert talks</p>
+              <p class="card-text">10 questions every month</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-grid gap-2">
+                <!--mx-auto makes the button to align center-->
+                <button class="btn btn-dark" type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-box col-lg-4 col-sm-6 col-12">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3>Techsta! Mini</h3>
+            </div>
+            <div class="card-body">
+              <h2>₹150 / mo</h2>
+              <p class="card-text">15 Live expert talks</p>
+              <p class="card-text">Placement Assistance Mini</p>
+              <p class="card-text">Unlimited questions</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-grid gap-2">
+                <button class="btn btn-dark" type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-box col-lg-4 col-sm-12 col-12">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3>Techsta! Premium</h3>
+            </div>
+            <div class="card-body">
+              <h2>₹300 / mo</h2>
+              <p class="card-text">Priority Listing</p>
+              <p class="card-text">Unlimited Expert talks</p>
+              <p class="card-text">Complete Placement assistance</p>
+              <p class="card-text">Counselling and guaranteed placements</p>
+            </div>
+            <div class="card-footer">
+              <div class="d-grid gap-2">
+                <button class="btn btn-dark" type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="container end">
+      <h3 class="love">Find the engineer you were meant to be today at Techsta!</h3>
+      <a href="D:\Web Dev\Quora for Engineers\firebase-auth-vanilla-main\index.html"><button type="button" class="btn btn-primary btn-lg download-button"><i class="fa-solid fa-desktop"></i> Login</button></a>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
+      <button type="button" class="btn btn-light btn-lg download-button "><i class="fa-brands fa-google-play"></i> Download</button>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fa-brands ficons fa-twitter"></i>
+    <i class="fa-brands ficons fa-instagram"></i>
+    <i class="fa-brands ficons fa-facebook"></i>
+    <i class="fa-solid ficons fa-envelope"></i>
+    <p>© Copyright Techsta! 2022</p>
+
+  </footer>
+
+
+</body>
+
+</html>
